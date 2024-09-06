@@ -1,0 +1,18 @@
+# These patterns are project specific, for your development environment-specific ignores
+# such as .idea or .DS_Store use a local gitignore file (git config --global core.excludesfile)
+
+*/node_modules
+*/dist
+
+.DS_Store
+yarn-error.log
+node_modules
+coverage
+junit.xml
+dist
+cdk.out/
+cdk.context.json
+logs/
+.vscode
+.idea
+coverage.txt
